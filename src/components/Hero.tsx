@@ -104,7 +104,7 @@ export function Hero({ sectionRef }: { sectionRef?: React.RefObject<HTMLElement 
 
         <p
           ref={subhead}
-          className="mt-6 max-w-2xl text-lg leading-relaxed text-muted sm:text-xl"
+          className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground/85 sm:text-xl"
         >
           {words.map((word, i) => (
             <span
@@ -117,7 +117,7 @@ export function Hero({ sectionRef }: { sectionRef?: React.RefObject<HTMLElement 
           ))}
         </p>
 
-        <p className="mt-4 max-w-xl text-base text-muted/80">
+        <p className="mt-4 max-w-xl text-base text-foreground/70">
           I help clients ship AI integrations, data dashboards, automation
           pipelines, and full-stack web apps — from idea to production.
         </p>

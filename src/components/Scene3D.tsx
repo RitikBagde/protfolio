@@ -33,7 +33,7 @@ const ParticleSwarm = () => {
   const positions = useMemo(() => generatePositions(), []);
 
   const material = useMemo(
-    () => new THREE.MeshBasicMaterial({ color: 0x475569, transparent: true, opacity: 0.85 }),
+    () => new THREE.MeshBasicMaterial({ color: 0x6b7d91, transparent: true, opacity: 0.72 }),
     [],
   );
   const geometry = useMemo(() => new THREE.TetrahedronGeometry(0.25), []);
